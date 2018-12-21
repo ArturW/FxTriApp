@@ -1,0 +1,205 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20-Nov-2015, 12:05:40 PM
+    Author     : user
+*/
+
+.root {
+    
+}
+
+.aboutLabel {    
+    /*-fx-text-fill: red;*/    
+    -fx-text-fill: linear-gradient(from 0% 0% to 100% 100%, repeat, whitesmoke, red);
+}
+
+.mainNode {
+    -fx-padding: 1;
+}   
+
+.boxLayouts {
+    -fx-spacing: 8;
+    -fx-padding: 3;
+}
+
+.buttons {
+    -fx-font-size: 14px;
+   
+}
+
+.labels {
+    -fx-font-size: 20px;
+}
+
+.textFields {
+    
+}
+
+.spinners {
+    
+    
+}
+
+.zoneSlider {
+    -fx-show-tick-labels: true;
+    -fx-show-tick-marks: true;
+}
+
+.thresholdSlider {
+    -fx-orientation: horizontal;
+    -fx-major-tick-unit: 10;
+    -fx-minor-tick-count: 1;
+    -fx-block-increment: 1;  
+}
+
+.paceSlider {
+    -fx-orientation: horizontal;
+    -fx-major-tick-unit: 1;
+    -fx-minor-tick-count: 1;
+    -fx-block-increment: 0.01;      
+}
+.powerSlider {
+    -fx-orientation: horizontal;
+    -fx-major-tick-unit: 100;
+    -fx-minor-tick-count: 1;
+    -fx-block-increment: 1;  
+}
+
+.velocitySlider {
+    -fx-orientation: horizontal;
+    -fx-major-tick-unit: 20;
+    -fx-minor-tick-count: 1;
+    -fx-block-increment: 1;
+}
+
+.cadanceSlider {
+    -fx-orientation: horizontal;
+    -fx-major-tick-unit: 10;
+    -fx-minor-tick-count: 1;
+    -fx-block-increment: 1;
+    -fx-pref-width: 300;
+}
+
+.scrollPane {
+    -fx-fit-to-width: true;
+    -fx-fit-to-hight: true;
+    -fx-vbar-policy: as-needed;
+    
+}
+
+.zonesTitledPane {
+   
+}
+
+.zonesTitledPaneHeader {
+    -fx-collapsible: false;
+    -fx-font-size: 10px;
+    -fx-text-fill: black; /* x0080FF; */
+    -fx-font-weight: bold;    
+}
+
+.zonesTitledPaneText {
+    -fx-font-size: 20px;
+    -fx-font-weight: lighter;    
+}
+
+.workoutsPane {
+    -fx-spacing: 0;
+    -fx-padding: 3;    
+    -fx-hgap: 0;
+    -fx-vgap: 0;
+}
+
+.zoneTitle {    
+    -fx-font-size: 14px;
+    -fx-text-fill: light; /* x0080FF; */
+    -fx-font-weight: lighter;
+}
+
+.zoneWorkouts {    
+    -fx-font-size: 12px;
+    -fx-font-weight: normal;
+    -fx-wrap-text: true;
+}
+
+.aeroVariables {
+    -fx-font-size: 14px;
+    -fx-text-fill: black; /* x0080FF; */
+    -fx-font-weight: lighter;
+    -fx-wrap-text: true;    
+}
+
+.aeroPane {
+    -fx-spacing: 5;
+    -fx-padding: 5;    
+    -fx-hgap: 5;
+    -fx-vgap: 5;
+}
+.aeroValues {    
+    -fx-font-size: 12px;
+    -fx-font-weight: normal;
+    -fx-text-alignment: center;
+   
+}
+
+.aeroChart{
+    -fx-legend-side: bottom;
+    -fx-legend-visible: true;
+    -fx-title-side: top;
+    -fx-alternative-column-fill-visible: false;
+    -fx-alternative-row-fill-visible: false; 	 
+    -fx-horizontal-grid-lines-visible: true; 	 
+    -fx-horizontal-zero-line-visible: false; 	 
+    -fx-vertical-grid-lines-visible: true; 	 
+    -fx-vertical-zero-line-visible: false;
+}
+
+.gearsListHeader {
+    -fx-orientation: horizontal;
+    -fx-min-height: 55;
+    -fx-max-height: 55;
+    
+}
+
+.gearsListView {    
+  -fx-orientation: horizontal;
+  -fx-min-height: 55;
+  -fx-max-height: 55;
+  
+}
+
+.gearsCellHeader {
+    -fx-cell-size: 50 ;  
+    /*-fx-font-size: 12px;*/
+    -fx-font-weight: bold;
+    
+}
+
+.gearsCellView {
+    -fx-cell-size: 50 ;  
+    
+}
+
+.rpeGridPane {
+    -fx-spacing: 5;
+    -fx-padding: 5;    
+    -fx-hgap: 5;
+    -fx-vgap: 5;
+    /*-fx-alignment: center-left;*/
+}
+
+.rpeHeader {    
+    -fx-font-weight: lighter;
+}
+
+.rpeText {
+   
+}
+
+.estimateCellHeader {
+    -fx-font-weight: bold;
+}
